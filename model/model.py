@@ -8,5 +8,5 @@ class Model:
 
     def get_umidita_media(self, mese):
         res = MeteoDao.get_umidita_media(mese)
-        print("Sono arrivato al model")
+        print("Sono arrivato al modelll")
         pass
