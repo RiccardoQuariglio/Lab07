@@ -14,6 +14,7 @@ class Controller:
         self._mese = 0
 
     def handle_umidita_media(self, e):
+        res = self._model.get_umidita_media(self._mese)
         pass
 
 
